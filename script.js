@@ -12,6 +12,7 @@ function mincost(arr)
   arr.sort((a,b)=>a-b);
 		
 	}
+	return total;
 }
-mincost([1,2,3,4]);
+console.log(mincost([1,2,3,4]));
 module.exports=mincost;
