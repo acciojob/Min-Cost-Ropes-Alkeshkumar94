@@ -13,5 +13,5 @@ function mincost(arr)
 		
 	}
 }
-
+mincost([1,2,3,4]);
 module.exports=mincost;
